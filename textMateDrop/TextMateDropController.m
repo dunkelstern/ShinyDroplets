@@ -10,6 +10,19 @@
 
 
 @implementation TextMateDropController
+
+- (void)application:(NSApplication *)sender openFiles:(NSArray *)filePaths{
+    NSTask *task = [[NSTask alloc] init];
+    [task setLaunchPath:@"/Applications/Textmate.app/Contents/Resources/mate"];
+    [task setArguments:filePaths];
+    [task launch];
+    [task release];
+
+    [sender replyToOpenOrPrint:NSApplicationDelegateReplySuccess];
+    [sender performSelector:@selector(terminate:) withObject:self afterDelay:0.1];
+}
+
+
 - (NSString *) appName{
     return @"TextMate";
 }

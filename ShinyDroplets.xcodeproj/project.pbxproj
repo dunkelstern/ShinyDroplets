@@ -63,6 +63,13 @@
 		0CB51D950E18D9D10007D46A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		0CB51D960E18D9D40007D46A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		0CB51DBF0E18DD210007D46A /* SmultronDrop.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0CB51DBE0E18DD210007D46A /* SmultronDrop.nib */; };
+		8FB1A83916B29467007EC3B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		8FB1A83A16B29467007EC3B5 /* baseDroplet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6D8140E14DDC800A1D910 /* baseDroplet.m */; };
+		8FB1A83D16B29467007EC3B5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		8FB1A84316B29490007EC3B5 /* SublimeDrop.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB1A82F16B2930B007EC3B5 /* SublimeDrop.nib */; };
+		8FB1A84616B29490007EC3B5 /* sublimeFinderIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8FB1A83216B2930B007EC3B5 /* sublimeFinderIcon.icns */; };
+		8FB1A84716B294A0007EC3B5 /* SublimeDropController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB1A83116B2930B007EC3B5 /* SublimeDropController.m */; };
+		8FB1A84A16B29916007EC3B5 /* scriptClick.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 0C78D9C40E1A357C00CF4444 /* scriptClick.scpt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,7 +90,7 @@
 		0C0428450E153D1600C34ACC /* MacVimDropController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacVimDropController.m; path = macVimDrop/MacVimDropController.m; sourceTree = "<group>"; };
 		0C0428460E153D1600C34ACC /* MacVimDrop.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = MacVimDrop.nib; path = macVimDrop/MacVimDrop.nib; sourceTree = "<group>"; };
 		0C78D9C40E1A357C00CF4444 /* scriptClick.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = scriptClick.scpt; sourceTree = "<group>"; };
-		0C81498B0FF0E00C00F35263 /* EspressoDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = EspressoDrop.app; path = build/Release/EspressoDrop.app; sourceTree = "<group>"; };
+		0C81498B0FF0E00C00F35263 /* EspressoDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EspressoDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C81498D0FF0E00C00F35263 /* EspressoDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EspressoDrop-Info.plist"; path = "../EspressoDrop-Info.plist"; sourceTree = "<group>"; };
 		0C8149920FF0E02000F35263 /* espressoFinderIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = espressoFinderIcon.icns; sourceTree = "<group>"; };
 		0C81499A0FF0E13500F35263 /* EspressoDrop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EspressoDrop.xib; sourceTree = "<group>"; };
@@ -123,6 +130,12 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* ShinyDroplets_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShinyDroplets_Prefix.pch; sourceTree = "<group>"; };
+		8FB1A82F16B2930B007EC3B5 /* SublimeDrop.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SublimeDrop.nib; sourceTree = "<group>"; };
+		8FB1A83016B2930B007EC3B5 /* SublimeDropController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SublimeDropController.h; sourceTree = "<group>"; };
+		8FB1A83116B2930B007EC3B5 /* SublimeDropController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SublimeDropController.m; sourceTree = "<group>"; };
+		8FB1A83216B2930B007EC3B5 /* sublimeFinderIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = sublimeFinderIcon.icns; sourceTree = "<group>"; };
+		8FB1A84116B29467007EC3B5 /* SublimeDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SublimeDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB1A84816B295AB007EC3B5 /* SublimeDrop-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SublimeDrop-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CB51D960E18D9D40007D46A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB1A83C16B29467007EC3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB1A83D16B29467007EC3B5 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +356,7 @@
 				0CB51D440E18D3650007D46A /* bbeditDrop.app */,
 				0CB51D800E18D7F60007D46A /* SmultronDrop.app */,
 				0C81498B0FF0E00C00F35263 /* EspressoDrop.app */,
+				8FB1A84116B29467007EC3B5 /* SublimeDrop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -342,6 +364,7 @@
 		29B97314FDCFA39411CA2CEA /* ShinyDroplets */ = {
 			isa = PBXGroup;
 			children = (
+				8FB1A82E16B2930B007EC3B5 /* sublimeDrop */,
 				0C8149910FF0E02000F35263 /* espressoDrop */,
 				0C78D9C60E1A358100CF4444 /* Applescript */,
 				0CB51D860E18D8BF0007D46A /* SmultronDrop */,
@@ -375,6 +398,18 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FB1A82E16B2930B007EC3B5 /* sublimeDrop */ = {
+			isa = PBXGroup;
+			children = (
+				8FB1A82F16B2930B007EC3B5 /* SublimeDrop.nib */,
+				8FB1A83016B2930B007EC3B5 /* SublimeDropController.h */,
+				8FB1A83116B2930B007EC3B5 /* SublimeDropController.m */,
+				8FB1A83216B2930B007EC3B5 /* sublimeFinderIcon.icns */,
+				8FB1A84816B295AB007EC3B5 /* SublimeDrop-Info.plist */,
+			);
+			path = sublimeDrop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,6 +551,23 @@
 			productReference = 0CB51D800E18D7F60007D46A /* SmultronDrop.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8FB1A83316B29467007EC3B5 /* SublimeDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB1A83E16B29467007EC3B5 /* Build configuration list for PBXNativeTarget "SublimeDrop" */;
+			buildPhases = (
+				8FB1A83416B29467007EC3B5 /* Resources */,
+				8FB1A83816B29467007EC3B5 /* Sources */,
+				8FB1A83C16B29467007EC3B5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SublimeDrop;
+			productName = MacVimDrop;
+			productReference = 8FB1A84116B29467007EC3B5 /* SublimeDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -523,7 +575,11 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ShinyDroplets" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* ShinyDroplets */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -536,6 +592,7 @@
 				0CB51D430E18D3650007D46A /* BBEditDrop */,
 				0CB51D7F0E18D7F60007D46A /* SmultronDrop */,
 				0C81498A0FF0E00C00F35263 /* EspressoDrop */,
+				8FB1A83316B29467007EC3B5 /* SublimeDrop */,
 			);
 		};
 /* End PBXProject section */
@@ -618,6 +675,16 @@
 				0C78DA400E1A40FD00CF4444 /* scriptClick.scpt in Resources */,
 				0CB51D900E18D9A60007D46A /* smultronFinderIcon.icns in Resources */,
 				0CB51DBF0E18DD210007D46A /* SmultronDrop.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB1A83416B29467007EC3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB1A84A16B29916007EC3B5 /* scriptClick.scpt in Resources */,
+				8FB1A84316B29490007EC3B5 /* SublimeDrop.nib in Resources */,
+				8FB1A84616B29490007EC3B5 /* sublimeFinderIcon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,6 +771,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FB1A83816B29467007EC3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB1A84716B294A0007EC3B5 /* SublimeDropController.m in Sources */,
+				8FB1A83916B29467007EC3B5 /* main.m in Sources */,
+				8FB1A83A16B29467007EC3B5 /* baseDroplet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -759,7 +836,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -784,7 +861,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -809,7 +886,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -828,7 +905,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = MacVimDrop;
-				SDKROOT = macosx10.4;
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -836,7 +913,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -854,7 +931,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = MacVimDrop;
-				SDKROOT = macosx10.4;
+				SDKROOT = macosx10.7;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -863,7 +940,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -888,7 +965,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -913,7 +990,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -938,7 +1015,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -963,7 +1040,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -988,7 +1065,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -1013,7 +1090,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -1038,7 +1115,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -1063,7 +1140,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -1088,7 +1165,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -1109,17 +1186,71 @@
 			};
 			name = Release;
 		};
+		8FB1A83F16B29467007EC3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SublimeDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SublimeDrop;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		8FB1A84016B29467007EC3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SublimeDrop-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SublimeDrop;
+				SDKROOT = macosx10.7;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -1127,11 +1258,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};
@@ -1206,6 +1337,15 @@
 			buildConfigurations = (
 				0CB51D830E18D7F70007D46A /* Debug */,
 				0CB51D840E18D7F70007D46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FB1A83E16B29467007EC3B5 /* Build configuration list for PBXNativeTarget "SublimeDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB1A83F16B29467007EC3B5 /* Debug */,
+				8FB1A84016B29467007EC3B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

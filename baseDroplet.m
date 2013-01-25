@@ -41,7 +41,14 @@
     for(i=0; i<n; i++){
         [self executeScript:[NSString stringWithFormat:scriptDrop,[self appName], [filePaths objectAtIndex:i]]];
     }
-    [sender terminate:self];
+    [sender replyToOpenOrPrint:NSApplicationDelegateReplySuccess];
+    [sender performSelector:@selector(terminate:) withObject:self afterDelay:0.1];
+}
+
+- (BOOL)application:(NSApplication *)sender openFile:(NSString *)filename {
+    [self executeScript:[NSString stringWithFormat:scriptDrop,[self appName], filename]];
+    [sender performSelector:@selector(terminate:) withObject:self afterDelay:0.1];
+    return YES;
 }
 
 - (NSString *) appName{
